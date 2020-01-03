@@ -2,8 +2,8 @@
 
 INSERT INTO burgers (burger_name, devoured)
 VALUES 
-    ("Mushroom & Swiss", "FALSE"),
-    ("Avocado Turkey", "FASLE"),
-    ("Veggie", "FALSE");
+    ("Mushroom & Swiss", FALSE),
+    ("Avocado Turkey", FASLE),
+    ("Veggie", FALSE);
 
 
