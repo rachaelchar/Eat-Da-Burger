@@ -1,11 +1,11 @@
-var connection = require("../config/connection.js");
+const connection = require("../config/connection.js");
 
 
 // Object for all our SQL statement functions.
 var orm = {
     // selectAll() 
-    all: function(tableInput, cb) {
-      var queryString = "SELECT * FROM " + tableInput + ";";
+    selectAll: function(tableName, cb) {
+      var queryString = "SELECT * FROM " + tableName + ";";
       connection.query(queryString, function(err, result) {
         if (err) {
           throw err;
@@ -15,7 +15,7 @@ var orm = {
     },
 
     // insertOne() 
-    create: function(table, cols, vals, cb) {
+    insertOne: function(table, cols, vals, cb) {
       var queryString = "INSERT INTO " + table;
   
       queryString += " (";
@@ -37,7 +37,7 @@ var orm = {
     },
 
     // updateOne()
-    update: function(table, objColVals, condition, cb) {
+    updateOne: function(table, objColVals, condition, cb) {
       var queryString = "UPDATE " + table;
   
       queryString += " SET ";
