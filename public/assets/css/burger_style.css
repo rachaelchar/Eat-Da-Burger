@@ -1,0 +1,30 @@
+body {
+  background-color: #e7b255;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 15%;
+    width: 15%;
+  }
+
+h1, h2, h4 {
+  text-align: center;
+  color: darkred;
+}
+
+.tan {
+  background-color: #faf3e1;
+}
+
+.uneaten-div {
+  margin-right: 2%;
+}
+
+#input {
+  width: 250px;
+  height: 100px;
+}
