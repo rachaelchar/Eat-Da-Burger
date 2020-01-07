@@ -4,5 +4,4 @@ Eat-Da-Burger is a restaurant app that lets users input the names of burgers the
 This app allows users to add burgers to their list, then "devour" the burgers by clicking on them.
 
 ## Deployed Application
-
-
+https://pacific-castle-08969.herokuapp.com/
