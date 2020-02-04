@@ -1,0 +1,20 @@
+{
+  "short_name": "Eat-Da-Burger",
+  "name": "Eat-Da-Burger",
+  "icons": [
+    {
+      "src": "/assets/img/burger_img.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/burger_img.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#e7b255",
+  "display": "standalone",
+  "theme_color": "#ffffff"
+}
