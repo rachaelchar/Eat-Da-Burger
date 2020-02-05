@@ -1,4 +1,11 @@
-const FILES_TO_CACHE = ["/", "/assets/css/burger_style.css", "/assets/img/burger_img.png", "/assets/js/burgers.js"];
+const FILES_TO_CACHE = [
+  "/",
+  "/manifest.webmanifest",
+  "/assets/css/bootstrap.min.css",
+  "/assets/css/burger_style.css",
+  "/assets/img/burger_img.png",
+  "/assets/js/burgers.js"
+];
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
